@@ -1,0 +1,54 @@
+#translation-tooltip {
+    position: fixed;
+    z-index: 999999;
+    background: rgba(33, 33, 33, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    transition: all 0.2s ease;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+#translation-tooltip .original-text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9em;
+    margin-bottom: 4px;
+    font-style: italic;
+}
+
+#translation-tooltip .translated-text {
+    font-weight: 500;
+}
+
+/* Loading indicator */
+#translation-tooltip.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-top: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Error state */
+#translation-tooltip.error {
+    background: rgba(211, 47, 47, 0.85);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.95);
+} 
