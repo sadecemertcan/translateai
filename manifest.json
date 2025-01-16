@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Translate AI",
   "version": "1.0.0",
-  "description": "Modern ve akıllı çeviri deneyimi sunan Firefox eklentisi",
+  "description": "A modern Firefox extension that instantly translates text under your mouse cursor. Features dark mode, blur effects, and smart paragraph detection.",
   "permissions": [
     "storage",
     "tabs",

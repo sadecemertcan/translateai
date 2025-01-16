@@ -2,74 +2,74 @@
 
 ![Translate AI Logo](icons/icon128.png)
 
-Translate AI, fare imleci ile metin çevirisi yapabilen modern bir Firefox eklentisidir.
+A modern Firefox extension that brings instant translation to your browsing experience. Simply hover over text to translate it instantly, with support for dark mode, blur effects, and smart paragraph detection.
 
-## 🌟 Özellikler
+## 🌟 Features
 
-- 🖱️ Fare imleci ile anlık çeviri
-- ⌨️ Ctrl tuşu ile paragraf çevirisi
-- 🌙 Karanlık mod ve bulanık arka plan
-- 🎯 Akıllı metin tespiti
-- 🔍 Otomatik dil algılama
-- 💫 Yumuşak animasyonlar
-- 🎨 Modern ve şık tasarım
+- 🖱️ Instant translation on mouse hover
+- ⌨️ Paragraph translation with Ctrl key
+- 🌙 Dark mode with blur effects
+- 🎯 Smart text detection
+- 🔍 Automatic language detection
+- 💫 Smooth animations
+- 🎨 Modern and elegant design
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-1. Firefox tarayıcınızı açın
-2. `about:debugging` sayfasına gidin
-3. "This Firefox" sekmesine tıklayın
-4. "Load Temporary Add-on" butonuna tıklayın
-5. `.xpi` dosyasını seçin
+1. Open Firefox browser
+2. Go to `about:debugging` page
+3. Click on "This Firefox" tab
+4. Click "Load Temporary Add-on"
+5. Select the `.xpi` file
 
-## 💡 Kullanım
+## 💡 Usage
 
-- Herhangi bir metinin üzerine fare imlecini getirin
-- Otomatik olarak çeviri yapılacaktır
-- Paragraf çevirisi için Ctrl tuşuna basılı tutun
-- Tooltip her zaman fare imlecini takip eder
+- Hover over any text to translate
+- Translation appears instantly in a sleek tooltip
+- Hold Ctrl key to translate entire paragraphs
+- Tooltip follows your mouse cursor smoothly
 
-## 🛠️ Geliştirme
+## 🛠️ Development
 
 ```bash
-# Bağımlılıkları yükleyin
+# Install dependencies
 npm install
 
-# Geliştirme modunda çalıştırın
+# Run in development mode
 npm run dev
 
-# Eklentiyi derleyin
+# Build extension
 npm run build
 ```
 
-## 🔧 Teknik Detaylar
+## 🔧 Technical Details
 
 - Firefox WebExtensions API
 - Google Translate API
 - Modern JavaScript (ES6+)
-- CSS3 ile modern görünüm
-- Responsive tasarım
+- CSS3 with modern effects
+- Responsive design
 
-## 📝 Lisans
+## 📝 License
 
-MIT License - Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+MIT License - See [LICENSE](LICENSE) for details.
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Bu depoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Harika özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/amazing`)
-5. Pull Request oluşturun
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/amazing`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing`)
+5. Create a Pull Request
 
-## 📞 İletişim
+## 📞 Contact
 
-- GitHub: [Profiliniz](https://github.com/kullanıcıadınız)
-- E-posta: mailadresiniz@example.com
+- GitHub: [Your Profile](https://github.com/yourusername)
+- Email: your.email@example.com
 
-## 🙏 Teşekkürler
+## 🙏 Acknowledgments
 
-Bu proje aşağıdaki açık kaynak projelerden ilham almıştır:
+This project is inspired by these amazing open source projects:
 - [MouseTooltipTranslator](https://github.com/ttop32/MouseTooltipTranslator)
 - Google Translate
 - Firefox WebExtensions 
